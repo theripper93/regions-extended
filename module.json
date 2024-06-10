@@ -1,7 +1,7 @@
 {
-  "title": "module-name",
-  "description": "desc",
-  "id": "module-id",
+  "title": "Regions Extended",
+  "description": "Adds Mouse and Button events to Regions.",
+  "id": "regions-extended",
   "version": "1.0",
   "authors": [
     {
@@ -55,8 +55,9 @@
     "styles/module.css"
   ],
   "packs": [],
-  "url": "https://github.com/theripper93/module-id",
-  "manifest": "https://github.com/theripper93/module-id/releases/latest/download/module.json",
+  "socket": true,
+  "url": "https://github.com/theripper93/regions-extended",
+  "manifest": "https://github.com/theripper93/regions-extended/releases/latest/download/module.json",
   "download": "",
   "relationships": {
     "requires": [
@@ -68,7 +69,7 @@
     ]
   },
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
+    "minimum": "12",
+    "verified": "12"
   }
 }

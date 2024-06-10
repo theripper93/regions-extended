@@ -1,0 +1,23 @@
+<fieldset>
+    <legend>Regions Extended Events</legend>
+    <div class="form-group">
+        <label>Events</label>
+        <div class="form-fields">
+            <multi-select name="flags.regions-extended.events">
+                {{#each multiSelect as |event|}}
+                <option {{#if event.selected}}selected{{/if}} value="{{event.value}}">{{localize event.label}}</option>
+                {{/each}}
+            </multi-select>
+        </div>
+        <p class="hint">The events that this behavior subscribes to.</p>
+    </div>
+
+    <div class="form-group">
+        <label>Events</label>
+        <div class="form-fields">
+            <file-picker name="flags.regions-extended.img" type="image" value="{{flags.img}}"
+                placeholder="icons/svg/d20-highlight.svg" />
+        </div>
+        <p class="hint">The image to use for the button.</p>
+    </div>
+</fieldset>

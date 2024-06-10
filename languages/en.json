@@ -1,7 +1,14 @@
 {
-    "module-id": {
+    "regions-extended": {
         "settings": {},
         "app": {},
-        "flags": {}
+        "flags": {},
+        "events": {
+            "clickleft": "Click Left",
+            "clickright": "Click Right",
+            "doubleclickleft": "Double Click Left",
+            "doubleclickright": "Double Click Right",
+            "button": "Button"
+        }
     }
 }
